@@ -11,9 +11,16 @@ FROM
     plans_plan
 LIMIT 100;
 
--- SHOW ALL RECORDS IN plans_plan TABLE
+-- SHOW ALL RECORDS IN savings_savingsaccount TABLE
 SELECT 
     *
 FROM
     savings_savingsaccount
+LIMIT 100;
+
+-- SHOW ALL RECORDS IN users_customuser TABLE
+SELECT 
+    *
+FROM
+    users_customuser
 LIMIT 100;
