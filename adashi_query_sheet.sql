@@ -51,4 +51,10 @@ WHERE
     
 
 -- FINDING HIGH VALUE PLANS GREATER THAN 10,000,000
-
+SELECT 
+    *
+FROM
+    plans_plan
+WHERE
+    amount > 10000000
+LIMIT 100;
