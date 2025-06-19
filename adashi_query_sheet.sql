@@ -8,4 +8,12 @@ SHOW TABLES; -- there are 4 tables in this database
 SELECT 
     *
 FROM
-    plans_plan;
+    plans_plan
+LIMIT 100;
+
+-- SHOW ALL RECORDS IN plans_plan TABLE
+SELECT 
+    *
+FROM
+    savings_savingsaccount
+LIMIT 100;
