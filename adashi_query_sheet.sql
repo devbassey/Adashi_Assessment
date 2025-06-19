@@ -48,3 +48,7 @@ FROM
     plans_plan
 WHERE
     plan_type_id = 1;
+    
+
+-- FINDING HIGH VALUE PLANS GREATER THAN 10,000,000
+
